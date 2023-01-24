@@ -1,6 +1,7 @@
 "use strict";
+// Md Mahadi Hasan Rifat
 // Extra Long Factorials Project
-function extraLongFactorials(n) {
+const extraLongFactorials = function (n) {
   let result = [BigInt(0), BigInt(1)];
 
   // Arrow function for the conditional factorial
@@ -13,36 +14,33 @@ function extraLongFactorials(n) {
       : result[num];
 
   console.log(String(factorial(BigInt(n))));
-}
+};
 
 extraLongFactorials(25);
 
-
-// Newton Ombese 
+// Newton Ombese
 // Minimum Distance Code Challenge
-function minimumDistances(a){
+function minimumDistances(a) {
   // Declaring an empty array
-  let distances = []
+  let distances = [];
 
   // for loop to help in iteration
-  for(let i = 0; i < a.length; i++){
-    if(a.indexOf(a[i]) !== a.lastIndexOf(a[i])){
+  for (let i = 0; i < a.length; i++) {
+    if (a.indexOf(a[i]) !== a.lastIndexOf(a[i])) {
       let minidistance = a.lastIndexOf(a[i]) - a.indexOf(a[i]);
-        distances.push(minidistance)
+      distances.push(minidistance);
     }
   }
 
-  if(distances.length === 0){
+  if (distances.length === 0) {
     return -1;
-  }
-  else{
-    distances.sort(function(a, b){
+  } else {
+    distances.sort(function (a, b) {
       return a - b;
     });
 
     return distances[0];
   }
-
 }
 
-minimumDistances(34)
+minimumDistances(34);
