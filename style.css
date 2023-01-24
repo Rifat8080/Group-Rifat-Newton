@@ -49,10 +49,11 @@ img{
 
 #img-div{
     padding: 10px;
+    margin-left: 30%;
 }
 
 #img-caption{
-    margin: 15px 0 5px 0;
+    margin: auto 50%;
 }
 
 #times{
