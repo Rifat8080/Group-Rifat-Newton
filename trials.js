@@ -18,6 +18,7 @@ function extraLongFactorials(n) {
 extraLongFactorials(25);
 
 
+// Newton Ombese 
 // Minimum Distance Code Challenge
 function minimumDistances(a){
   // Declaring an empty array
