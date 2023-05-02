@@ -1,83 +1,84 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* <!-- Nelson Mandela Project Presents --> */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 14px;
+html {
+  font-size: 14px;
 }
 
-h1{
-    margin-bottom: 0;
-    font-size: 4rem;
-    background: lightgray;
-    text-align: center;
+h1 {
+  margin-bottom: 0;
+  font-size: 4rem;
+  background: lightgray;
+  text-align: center;
 }
 
-#text-title{
-    background: lightgray;
-    text-align: center;
+#text-title {
+  background: lightgray;
+  text-align: center;
 }
 
-h3{
-    font-size: 2rem;
+h3 {
+  font-size: 2rem;
 }
 
-a{
-    color: green;
+a {
+  color: green;
 }
 
-a:visited{
-    color: red;
+a:visited {
+  color: red;
 }
 
-a:hover{
-    color: blue;
+a:hover {
+  color: blue;
 }
 
-#main{
-    margin: auto 10px;
-    padding: 15px;
+#main {
+  margin: auto 10px;
+  padding: 15px;
 }
 
-img{
-    max-width: 100%;
-    display: block;
-    height: auto;
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
-#img-div{
-    padding: 10px;
-    margin-left: 30%;
+#img-div {
+  padding: 10px;
+  margin-left: 30%;
 }
 
-#img-caption{
-    margin: auto 50%;
+#img-caption {
+  margin: auto 50%;
 }
 
-#times{
-    margin: 35px 0;
-    text-align: center;
+#times {
+  margin: 35px 0;
+  text-align: center;
 }
 
-ul{
-    max-width: 540px;
-    margin: 0 auto 50px auto;
+ul {
+  max-width: 540px;
+  margin: 0 auto 50px auto;
 }
 
-li{
-    margin: 16px 0 16px 50px;
+li {
+  margin: 16px 0 16px 50px;
 }
 
-blockquote{
-    font-style: italic;
-    max-width: 545px;
-    margin: 0 auto 50px auto;
-    text-align: left;
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
 }
 
-footer{
-    text-align: center;
-    font-size: 16px;
+footer {
+  text-align: center;
+  font-size: 16px;
 }
